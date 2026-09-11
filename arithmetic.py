@@ -9,3 +9,6 @@ print(a-b)
 
 #Multiply
 print(a*b)
+
+#divid
+print(a/b)

@@ -10,5 +10,5 @@ print(a-b)
 #Multiply
 print(a*b)
 
-#divid
+#divide
 print(a/b)

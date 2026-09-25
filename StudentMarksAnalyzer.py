@@ -4,6 +4,7 @@ print("\nStudent Marks Analyzer\n")
 
 print("1. Find how many students got a particular mark")
 print("2. Check whether any student scored more than 90")
+print("3. Calculate Total marks")
 
 ch=int(input("\nEnter your choice:"))
 
@@ -17,6 +18,11 @@ elif ch==2:
         print("Yes,some students marks exceed 90")
     else:
         print("No,some students marks exceed 90")
+
+elif ch==3:
+    total=sum(marks)
+    print("Total marks:",total)
+
 
 else:
     print("Invalid choice")

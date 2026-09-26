@@ -24,7 +24,9 @@ elif ch==3:
     total=sum(marks)
     print("Total marks:",total)
 
-
+elif ch==4:
+    marks.sort()
+    print("Marks in ascending order:",marks)
 
 else:
     print("Invalid choice")

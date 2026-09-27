@@ -29,5 +29,8 @@ elif ch==4:
     marks.sort()
     print("Marks in ascending order:",marks)
 
+elif ch==5:
+    print("Total number of students:",len(marks))
+
 else:
     print("Invalid choice")

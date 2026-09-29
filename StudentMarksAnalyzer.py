@@ -33,5 +33,9 @@ elif ch==4:
 elif ch==5:
     print("Total number of students:",len(marks))
 
+elif ch==6:
+    print("Highest marks:",max(marks))
+    print("Lowest marks:",min(marks))
+
 else:
     print("Invalid choice")

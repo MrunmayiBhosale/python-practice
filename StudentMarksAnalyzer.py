@@ -7,6 +7,7 @@ print("2. Check whether any student scored more than 90")
 print("3. Calculate Total marks")
 print("4. Display marks in ascending order")
 print("5. Display total number of students")
+print("6. Display highest and lowest marks")
 
 ch=int(input("\nEnter your choice:"))
 

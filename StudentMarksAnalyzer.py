@@ -8,6 +8,7 @@ print("3. Calculate Total marks")
 print("4. Display marks in ascending order")
 print("5. Display total number of students")
 print("6. Display highest and lowest marks")
+print("7. Check whether all students scored atleast 35")
 
 ch=int(input("\nEnter your choice:"))
 
@@ -36,6 +37,12 @@ elif ch==5:
 elif ch==6:
     print("Highest marks:",max(marks))
     print("Lowest marks:",min(marks))
+
+elif ch==7:
+    if all(mark>=35 for mark in marks):
+        print("Yes,All students have scored at least 35")
+    else:
+        print("No,Some students have scored less than 35")
 
 else:
     print("Invalid choice")

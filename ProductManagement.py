@@ -1,4 +1,4 @@
-print("\n---Product Inventory Management---\n")
+print("\n---Product Management---\n")
 products = {"Laptop", "Mouse", "Keyboard", "Monitor", "Printer"}
 discount_products = {"Mouse", "Monitor", "Printer"}
 
@@ -30,6 +30,6 @@ if check_product in products:
     print(check_product, "is available.")
 else:
     print(check_product, "is not available.")
-    
+
 discount_available = products.intersection(discount_products)
 print("\nDiscount Products Available:", discount_available)
